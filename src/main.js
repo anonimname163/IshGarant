@@ -15,6 +15,7 @@ import { renderEscrowPayment } from './pages/escrowPayment.js';
 import { renderDashboard } from './pages/dashboard.js';
 import { renderDealView } from './pages/dealView.js';
 import { renderAdmin } from './pages/admin.js';
+import { renderSettings } from './pages/settings.js';
 
 // Initialize seed data
 initSeedData();
@@ -31,6 +32,7 @@ registerRoute('/escrow-payment', renderEscrowPayment);
 registerRoute('/dashboard', renderDashboard);
 registerRoute('/deal/:id', renderDealView);
 registerRoute('/admin', renderAdmin);
+registerRoute('/settings', renderSettings);
 
 // Render shell
 renderNavbar();
