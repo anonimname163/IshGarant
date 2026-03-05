@@ -30,10 +30,6 @@ export function renderLogin(container) {
             </p>
           </div>
           <div class="mt-6" style="padding:var(--sp-4);background:var(--blue-50);border-radius:var(--radius-lg);">
-            <p class="text-xs font-semibold text-blue mb-2">Demo hisoblar:</p>
-            <p class="text-xs text-muted">👷 Ishchi: +998901111111 / worker123</p>
-            <p class="text-xs text-muted">👤 Mijoz: +998903333333 / client123</p>
-            <p class="text-xs text-muted">🔑 Admin: +998901234567 / admin123</p>
           </div>
         </div>
       </div>
