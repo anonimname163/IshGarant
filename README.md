@@ -91,7 +91,7 @@
 ## 📦 Установка и запуск (если локальная разработка)
 
 ```bash
-git clone https://github.com/anonimname163/IshGarant/
+git clone https://github.com/anonimname163/IshGarant/Netlify
 cd ishgarant
 npm install
 npm run dev
